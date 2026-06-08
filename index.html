@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -14,105 +14,176 @@
       <nav aria-label="Primary navigation">
         <ul class="nav-list">
           <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#education">Education</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <a class="nav-button" href="#contact">Hire Me</a>
+      <a class="nav-button" href="#contact">Let’s Talk</a>
     </div>
   </header>
 
   <main>
-    <section id="home" class="hero">
+    <section id="home" class="hero hero-splash">
       <div class="container hero-grid">
         <div class="hero-copy">
           <p class="eyebrow">Aspiring Full-Stack Developer & AI Enthusiast</p>
           <h1>Hi, I’m <span>Sreya Sreejith</span></h1>
-          <p class="hero-text">I build elegant, accessible web experiences and intelligent solutions. Currently focused on full-stack development, AI-inspired web apps, and modern product design.</p>
+          <p class="hero-text">I design clean web experiences and build smart solutions for education, events, and modern tools. My focus is on polished UI, responsive structure, and scalable applications.</p>
           <div class="hero-buttons">
-            <a href="#projects" class="button button-primary">View Projects</a>
-            <a href="#contact" class="button button-secondary">Get in Touch</a>
+            <a href="#services" class="button button-primary">Explore Services</a>
+            <a href="#projects" class="button button-secondary">See Projects</a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://github.com/sreyasreejith24-droid-github" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/sreya-sreejith-61b230383" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
         </div>
 
-        <aside class="hero-card" aria-label="Profile summary">
-          <div class="hero-badge">SS</div>
-          <div class="hero-card-inner">
-            <p class="hero-card-title">Developer Portfolio</p>
-            <p>Building premium, responsive digital experiences with a clean modern aesthetic and a focus on usability.</p>
-            <div class="hero-meta">
-              <span>Web Development</span>
-              <span>AI Enthusiasm</span>
+        <aside class="hero-panel" aria-label="Profile widget">
+          <div class="hero-widget hero-widget-main">
+            <span class="widget-label">Profile</span>
+            <h2>Sreya Sreejith</h2>
+            <p>Aspiring Full-Stack Developer with a passion for building intuitive web products and AI-driven experiences.</p>
+            <div class="hero-stats">
+              <div>
+                <strong>03+</strong>
+                <span>Projects</span>
+              </div>
+              <div>
+                <strong>05+</strong>
+                <span>Hackathons</span>
+              </div>
             </div>
+          </div>
+          <div class="hero-widget hero-widget-secondary">
+            <span class="widget-label">Featured</span>
+            <p>Education platform, event discovery board, and rural learning ecosystem with AI support.</p>
           </div>
         </aside>
       </div>
     </section>
 
-    <section id="about" class="section section-about">
-      <div class="container section-grid">
-        <div class="section-intro">
-          <span class="section-label">About Me</span>
-          <h2>Designing intelligent solutions with a human touch.</h2>
-          <p>I chose Computer Science Engineering because I am passionate about technology, problem-solving, and building software that makes life easier. My work blends thoughtful design, efficient development, and a strong focus on accessibility.</p>
+    <section id="services" class="section section-services">
+      <div class="container">
+        <div class="section-header center-header">
+          <span class="section-label">Services</span>
+          <h2>What I deliver</h2>
+          <p class="section-subtitle">Crafting clean, scalable digital experiences for learning, events, and AI-enabled workflows.</p>
         </div>
-        <div class="about-panel">
-          <div class="about-card">
-            <h3>Career focus</h3>
-            <p>My long-term goal is to become a Full-Stack Developer and AI Engineer, building web applications and intelligent systems that solve real-world problems and improve people’s lives.</p>
-          </div>
-          <div class="about-card">
-            <h3>Interests</h3>
-            <ul>
-              <li>Web Development</li>
-              <li>User-friendly digital experiences</li>
-              <li>AI-driven innovation</li>
-              <li>Hackathons and hands-on learning</li>
-            </ul>
-          </div>
-          <div class="about-card about-education">
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>Web Development</h3>
+            <p>Responsive websites built with clean HTML & CSS and a focus on performance and accessibility.</p>
+            <div class="service-meta">
+              <span>Modern layouts</span>
+              <span>Responsive design</span>
+            </div>
+          </article>
+          <article class="service-card">
+            <h3>Full-Stack Solutions</h3>
+            <p>Backend-ready web apps that connect data, authentication, and user journeys in a polished UI.</p>
+            <div class="service-meta">
+              <span>Node.js basics</span>
+              <span>Database design</span>
+            </div>
+          </article>
+          <article class="service-card">
+            <h3>AI & Learning</h3>
+            <p>Intelligent features and educational workflows that make technology accessible to students and teachers.</p>
+            <div class="service-meta">
+              <span>AI concepts</span>
+              <span>Adaptive systems</span>
+            </div>
+          </article>
+          <article class="service-card">
+            <h3>UI/UX Design</h3>
+            <p>Thoughtful interfaces with clear hierarchy, smooth interactions, and professional visual polish.</p>
+            <div class="service-meta">
+              <span>Figma</span>
+              <span>Design systems</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-about">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <span class="section-label">About Me</span>
+          <h2>Passionate about technology, learning, and solving real problems.</h2>
+          <p>I chose Computer Science Engineering because I love technology, problem-solving, and software development. My career goal is to become a Full-Stack Developer and AI Engineer, building web applications and intelligent systems that improve people’s lives.</p>
+        </div>
+        <div class="about-widgets">
+          <article class="about-card">
+            <h3>My Story</h3>
+            <p>I enjoy creating user-friendly digital experiences and continuously improving through projects, hackathons, workshops, and hands-on learning.</p>
+          </article>
+          <article class="about-card">
+            <h3>My Focus</h3>
+            <p>Web Development, UI/UX, responsive interfaces, and AI-inspired solutions for education and community platforms.</p>
+          </article>
+          <article class="about-card card-highlight">
             <h3>Education</h3>
             <p>B.Tech in Computer Science and Engineering</p>
             <p>TOCH Institute of Science and Technology, 2025–2029</p>
-          </div>
+          </article>
+        </div>
+      </div>
+      <div class="container approach-block">
+        <h3>My approach</h3>
+        <div class="approach-grid">
+          <article class="approach-card">
+            <span>01</span>
+            <h4>Understand users & goals</h4>
+          </article>
+          <article class="approach-card">
+            <span>02</span>
+            <h4>Create clean UI layouts</h4>
+          </article>
+          <article class="approach-card">
+            <span>03</span>
+            <h4>Build responsive experiences</h4>
+          </article>
         </div>
       </div>
     </section>
 
     <section id="skills" class="section section-skills">
       <div class="container">
-        <div class="section-header">
+        <div class="section-header center-header">
           <span class="section-label">Skills</span>
-          <h2>Technical strengths and tools</h2>
+          <h2>Crafting seamless UI/UX and clean code</h2>
         </div>
         <div class="skills-grid">
-          <article class="skill-group">
-            <h3>Frontend</h3>
+          <article class="skill-card">
+            <h3>Core Skills</h3>
+            <div class="skill-pill">UI/UX Layout</div>
+            <div class="skill-pill">Frontend Dev</div>
+            <div class="skill-pill">Responsive Web Design</div>
+            <div class="skill-pill">Component-Based Design</div>
+          </article>
+          <article class="skill-card">
+            <h3>Frontend Tech</h3>
             <div class="skill-pill">HTML</div>
             <div class="skill-pill">CSS</div>
             <div class="skill-pill">JavaScript</div>
-            <div class="skill-pill">Responsive Design</div>
+            <div class="skill-pill">Git</div>
           </article>
-          <article class="skill-group">
-            <h3>Design</h3>
-            <div class="skill-pill">UI/UX Design</div>
+          <article class="skill-card">
+            <h3>Design Tools</h3>
             <div class="skill-pill">Figma</div>
+            <div class="skill-pill">UI/UX Design</div>
             <div class="skill-pill">Visual Systems</div>
           </article>
-          <article class="skill-group">
-            <h3>Tools</h3>
-            <div class="skill-pill">Git</div>
+          <article class="skill-card">
+            <h3>Tools & Learning</h3>
             <div class="skill-pill">GitHub</div>
-            <div class="skill-pill">SQL</div>
-          </article>
-          <article class="skill-group">
-            <h3>Learning</h3>
             <div class="skill-pill">React</div>
             <div class="skill-pill">Node.js</div>
-            <div class="skill-pill">MongoDB</div>
             <div class="skill-pill">AI Concepts</div>
           </article>
         </div>
@@ -121,90 +192,28 @@
 
     <section id="projects" class="section section-projects">
       <div class="container">
-        <div class="section-header">
+        <div class="section-header center-header">
           <span class="section-label">Projects</span>
-          <h2>Selected work</h2>
+          <h2>Recent work</h2>
         </div>
         <div class="projects-grid">
           <article class="project-card">
-            <div class="project-tag">EduCycle</div>
-            <h3>Accessible learning platform</h3>
-            <p>An educational platform that makes learning accessible and engaging through organized resources and a polished interface.</p>
-            <ul>
-              <li>Student-centered learning hub</li>
-              <li>Organized resource access</li>
-              <li>Clean, modern interface</li>
-            </ul>
+            <span class="project-tag">EduCycle</span>
+            <h3>Educational platform</h3>
+            <p>A platform that makes learning more accessible through a student-centered design and clear navigation.</p>
             <a href="https://educycle-connect-beta.vercel.app" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo</a>
           </article>
-
           <article class="project-card">
-            <div class="project-tag">Event Horizon</div>
-            <h3>College event discovery</h3>
-            <p>A centralized platform that helps students discover and stay updated with inter-college events in one polished experience.</p>
-            <ul>
-              <li>Event aggregation</li>
-              <li>Easy exploration</li>
-              <li>Student-first layout</li>
-            </ul>
+            <span class="project-tag">Event Horizon</span>
+            <h3>Event discovery</h3>
+            <p>Centralized event listings for college students, designed to simplify discovery and participation.</p>
             <a href="https://event-horizon-six-dusky.vercel.app" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo</a>
           </article>
-
           <article class="project-card">
-            <div class="project-tag">Teacher Connect</div>
+            <span class="project-tag">Teacher Connect</span>
             <h3>Rural education platform</h3>
-            <p>A comprehensive system connecting teachers and students in rural areas with AI, video learning, leaderboards, and offline support.</p>
-            <ul>
-              <li>Dual authentication</li>
-              <li>Video and audio library</li>
-              <li>AI-powered doubt resolution</li>
-            </ul>
+            <p>An ecosystem connecting teachers and students via video learning, upvoting, and AI support.</p>
             <a href="https://teacher-connect-jade.vercel.app" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo</a>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="education" class="section section-education">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-label">Education</span>
-          <h2>Academic journey</h2>
-        </div>
-        <div class="timeline-card">
-          <div class="timeline-item">
-            <span class="timeline-year">2025 – 2029</span>
-            <div>
-              <h3>Bachelor of Technology (B.Tech)</h3>
-              <p>Computer Science and Engineering, TOCH Institute of Science and Technology</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="experience" class="section section-experience">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-label">Experience & Activities</span>
-          <h2>What I build and explore</h2>
-        </div>
-        <div class="experience-grid">
-          <article class="experience-card">
-            <h3>Hackathons</h3>
-            <p>Participated in multiple hackathons to build fast prototypes, solve challenges, and sharpen development skills.</p>
-          </article>
-          <article class="experience-card">
-            <h3>Workshops</h3>
-            <p>Attended AI and technology workshops to deepen knowledge and explore emerging tools and frameworks.</p>
-          </article>
-          <article class="experience-card">
-            <h3>Projects</h3>
-            <p>Built educational and event management platforms with thoughtful interfaces and scalable features.</p>
-          </article>
-          <article class="experience-card">
-            <h3>Growth</h3>
-            <p>Continuously learning full-stack development, modern tools, and AI-driven solutions for real-world impact.</p>
           </article>
         </div>
       </div>
@@ -214,8 +223,8 @@
       <div class="container contact-grid">
         <div class="contact-panel">
           <span class="section-label">Contact</span>
-          <h2>Let’s build something impactful together.</h2>
-          <p>If you are looking for an ambitious full-stack developer with a focus on clean interfaces and intelligent web experiences, feel free to reach out.</p>
+          <h2>Ready to collaborate?</h2>
+          <p>Reach out for internships, freelance work, or AI-inspired web projects. I’m available to bring strong UI and full-stack ideas to life.</p>
           <div class="contact-details">
             <a href="mailto:sreya.sreejith24@gmail.com">sreya.sreejith24@gmail.com</a>
             <a href="https://github.com/sreyasreejith24-droid-github" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -224,8 +233,7 @@
         </div>
         <div class="contact-card">
           <div class="contact-card-inner">
-            <p class="contact-card-title">Ready to collaborate?</p>
-            <p>Open for internships, freelance opportunities, and collaborations on web development and AI projects.</p>
+            <p class="contact-card-title">Let's build something together.</p>
             <a href="mailto:sreya.sreejith24@gmail.com" class="button button-primary">Email Me</a>
           </div>
         </div>
@@ -236,7 +244,7 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <p>© 2026 Sreya Sreejith. Aspiring Full-Stack Developer & AI Enthusiast.</p>
-      <p>Designed for recruitment, internships, and modern tech roles.</p>
+      <p>Modern portfolio for internships, hackathons, and growth roles.</p>
     </div>
   </footer>
 </body>
